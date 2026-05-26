@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andaru C. Wisesa | Portfolio</title>
+    <!-- Menggunakan Tailwind CSS via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* Efek custom untuk kombinasi warna premium */
+        .text-gold { color: #D4AF37; }
+        .bg-milan-red { background-color: #8B0000; }
+        .border-milan-red { border-color: #5C0000; }
+        .hover-gold:hover { color: #AA820A; }
+    </style>
+</head>
+<body class="bg-[#0D0D0D] text-[#E5E5E5] font-sans selection:bg-[#8B0000] selection:text-white">
+
+    <!-- HERO SECTION (Nuansa Stadion San Siro Malam Hari & Gaya Klasik) -->
+    <section class="h-screen flex flex-col justify-center items-center text-center p-6 relative overflow-hidden">
+        <!-- Garis vertikal estetis tipis sebagai aksen arsitektur Italia -->
+        <div class="absolute left-1/2 top-0 bottom-0 w-[1px] bg-gradient-to-b from-transparent via-[#8B0000]/30 to-transparent"></div>
+        
+        <div class="relative z-10">
+            <!-- Badge kecil terinspirasi dari bentuk perisai klub Italia -->
+            <div class="inline-block border border-[#D4AF37] text-[#D4AF37] text-xs tracking-widest uppercase px-3 py-1 rounded-sm mb-6 font-semibold">
+                Web Dev & IoT Enthusiast
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 uppercase">
+                Andaru <span class="text-[#8B0000]">Cikal</span> Wisesa
+            </h1>
+            
+            <p class="text-sm md:text-base text-gray-400 max-w-lg mx-auto mb-8 font-light tracking-wide leading-relaxed">
+                Membangun platform digital yang presisi dan mengintegrasikan ekosistem perangkat keras dari Tasikmalaya, terinspirasi oleh determinasi dan elegansi seni Eropa.
+            </p>
+            
+            <a href="#proyek" class="inline-block border border-[#8B0000] bg-[#8B0000]/10 hover:bg-[#8B0000] text-white font-medium text-sm tracking-wider uppercase py-3 px-8 transition duration-500 rounded-sm">
+                Jelajahi Karya
+            </a>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION (eFootball Card Edition) -->
+    <section id="proyek" class="py-24 bg-[#121212] border-t border-gray-950 px-6 relative">
+        <div class="max-w-5xl mx-auto">
+            
+            <!-- Header Seksi -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <span class="text-xs text-[#8B0000] font-bold tracking-widest uppercase">MATCHDAY SQUAD</span>
+                    <h2 class="text-3xl font-bold uppercase tracking-tight mt-1 text-white">PROJECT SQUAD LIST</h2>
+                </div>
+                <div class="h-[1px] flex-1 bg-gradient-to-r from-transparent via-zinc-800 to-transparent mx-4 hidden md:block"></div>
+                <p class="text-xs text-zinc-500">SEASON 2026</p>
+            </div>
+
+            <!-- Grid Kartu -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
+                
+                <!-- CARD 1: WEB PORTFOLIO (Epic/Big Time Concept) -->
+                <div class="w-full max-w-[340px] aspect-[3/4] bg-gradient-to-b from-[#1C0000] via-[#0D0D0D] to-[#261C02] border-2 border-[#D4AF37]/40 rounded-xl relative overflow-hidden shadow-[0_0_30px_rgba(139,0,0,0.15)] group hover:border-[#D4AF37] transition-all duration-500">
+                    <!-- Efek Kilau Latar Belakang (Aura eFootball) -->
+                    <div class="absolute -right-20 -top-20 w-48 h-48 bg-[#8B0000]/20 rounded-full blur-3xl group-hover:bg-[#8B0000]/40 transition-all duration-500"></div>
+                    <div class="absolute -left-20 -bottom-20 w-48 h-48 bg-[#D4AF37]/10 rounded-full blur-3xl"></div>
+                    
+                    <!-- SISI ATAS: Rating, Posisi, & Jenis Kartu -->
+                    <div class="absolute top-5 left-5 z-10 flex flex-col items-center">
+                        <span class="text-4xl font-extrabold text-[#D4AF37] font-mono tracking-tighter leading-none">96</span>
+                        <span class="text-xs font-bold bg-[#8B0000] text-white px-2 py-0.5 rounded-sm mt-1 tracking-wider font-sans">WEB</span>
+                    </div>
+                    <div class="absolute top-5 right-5 z-10">
+                        <span class="text-[10px] text-[#D4AF37] border border-[#D4AF37]/50 font-bold uppercase tracking-widest px-2 py-0.5 rounded-sm bg-black/40">EPIC: DEV</span>
+                    </div>
+
+                    <!-- KONTEN TENGAH: Siluet / Inisial Besar -->
+                    <div class="absolute inset-0 flex items-center justify-center opacity-10 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none">
+                        <span class="text-[180px] font-black text-white font-mono select-none">ACW</span>
+                    </div>
+
+                    <!-- SISI BAWAH: Detail Info & Statistik Proyek -->
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/90 to-transparent p-6 pt-20 z-10">
+                        <!-- Nama Proyek (Ala Nama Pemain eFootball) -->
+                        <h3 class="text-xl font-black text-white uppercase tracking-tight text-center border-b border-zinc-800 pb-2 mb-4 group-hover:text-[#D4AF37] transition-colors">
+                            DIGITAL PORTFOLIO
+                        </h3>
+                        
+                        <!-- Mini Deskripsi -->
+                        <p class="text-xs text-zinc-400 font-light text-center mb-4 line-clamp-2">
+                            Situs web responsif dengan tema gabungan kemewahan AC Milan dan interaktivitas eFootball UI.
+                        </p>
+
+                        <!-- Statistik Kemampuan Proyek -->
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                            <div class="bg-zinc-900/80 p-1.5 rounded border border-zinc-800">
+                                <div class="text-[10px] text-zinc-500 uppercase font-semibold">HTML</div>
+                                <div class="font-bold text-white font-mono">95</div>
+                            </div>
+                            <div class="bg-zinc-900/80 p-1.5 rounded border border-zinc-800">
+                                <div class="text-[10px] text-zinc-500 uppercase font-semibold">CSS</div>
+                                <div class="font-bold text-[#D4AF37] font-mono">90</div>
+                            </div>
+                            <div class="bg-zinc-900/80 p-1.5 rounded border border-zinc-800">
+                                <div class="text-[10px] text-zinc-500 uppercase font-semibold">JS</div>
+                                <div class="font-bold text-white font-mono">75</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2: ESP8266 PROJECT (Showtime Concept) -->
+                <div class="w-full max-w-[340px] aspect-[3/4] bg-gradient-to-b from-[#0F1C18] via-[#0D0D0D] to-[#141C24] border-2 border-zinc-800 rounded-xl relative overflow-hidden shadow-xl opacity-60 group">
+                    <!-- SISI ATAS -->
+                    <div class="absolute top-5 left-5 z-10 flex flex-col items-center">
+                        <span class="text-4xl font-extrabold text-zinc-600 font-mono tracking-tighter leading-none">??</span>
+                        <span class="text-xs font-bold bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded-sm mt-1 tracking-wider font-sans">IOT</span>
+                    </div>
+
+                    <!-- SISI BAWAH -->
+                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/90 to-transparent p-6 pt-20 z-10">
+                        <h3 class="text-xl font-black text-zinc-500 uppercase tracking-tight text-center border-b border-zinc-900 pb-2 mb-4">
+                            HARDWARE SQUAD
+                        </h3>
+                        <p class="text-xs text-zinc-600 font-light text-center mb-4">
+                            Proyek otomasi pintar masa depan menggunakan mikrokontroler ESP8266. Bersiap untuk transfer data real-time.
+                        </p>
+                        <!-- Gembok / Status Locked -->
+                        <div class="text-center text-xs text-zinc-600 font-mono tracking-widest uppercase">
+                            [ LOCKED PROSPECT ]
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACT SECTION -->
+    <footer class="py-12 bg-[#0D0D0D] border-t border-gray-900 text-center text-xs text-gray-600 tracking-wider uppercase">
+        <p>&copy; 2026 Andaru Cikal Wisesa. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
